@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Debugged Cafe</title>
+    <link href="/static/css/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src='/static/ants.svg' alt='Debugged Cafe' />
+        <h1>Debugged Cafe</h1>
+      </div>
+      <ul>  
+        <li><a href='/'>Home</a></li>
+        <li><a href='/coffee'>Coffee</a></li>
+        <li><a href='/partners'>Partners</a></li>
+        <li><a href='/about'>About</a></li>
+      </ul>
+    </header>
+    <section>
+      <form method="post">
+        <img src='/static/ants.svg' id='pic-2' />
+        <h1>Debugged Cafe</h1>
+        <div>
+          <label for="Name">Name</label><br>
+          <input type="text" id="Name" name="Name" placeholder="Barry B. Benson"><br>
+        </div>
+        <div>
+          <label for="Location">Location</label><br>
+          <input type="text" id="Location" name="Location" placeholder="9600 Ants Street"><br>
+        </div>
+        <div>
+          <label for="Foods">Foods to Order</label><br>
+          <input type="text" id="Foods" name="Foods" placeholder="Icecream Ants, Honeydew Buggies">
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
